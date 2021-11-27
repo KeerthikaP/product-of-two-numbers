@@ -1,0 +1,10 @@
+ #include <iostream>
+using namespace std;
+int main() {
+    float k, p, product;
+    cout << "Enter two Numbers\n";
+    cin >> k >> p;
+    product = k*p;
+    cout << "Product = " << product;
+    return 0;
+}
